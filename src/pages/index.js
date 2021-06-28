@@ -131,28 +131,19 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+        Style Guide
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
+        Building <code style={codeStyles}>code styles so I know how to do things</code>
       </p>
+
+      <h2>CSS</h2>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
+          <h3>Titles</h3>
+          <code style={codeStyles}>/*------------------------------------*\<br />
+  #SECTION-TITLE<br />
+\*------------------------------------*/</code>
         </li>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
