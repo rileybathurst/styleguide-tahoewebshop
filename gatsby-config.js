@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "styleguide-tahoewebshop",
+    siteUrl: "https://styleguidetahoewebshopmain.gatsbyjs.io"
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
