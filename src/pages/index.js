@@ -145,6 +145,14 @@ const IndexPage = () => {
   #SECTION-TITLE<br />
 \*------------------------------------*/</code>
         </li>
+        
+        <li style={docLinkStyle}>
+          <h3>CSS Variables</h3>
+          <code style={codeStyles}>
+            Use variable instead of SASS if possible,<br />
+            Media Queries have to be sass
+          </code>
+        </li>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
