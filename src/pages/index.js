@@ -153,6 +153,14 @@ const IndexPage = () => {
             Media Queries have to be sass
           </code>
         </li>
+
+        <li style={docLinkStyle}>
+          <h3>Emoji 🦄</h3>
+          <h4>I use emoji all over my code the color means I dinf them 100x quicker</h4>
+          <p>📣 look back at this it's not breaking but I don't like it</p>
+          <p>🚨 It's broken</p>
+        </li>
+
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
