@@ -161,6 +161,13 @@ const IndexPage = () => {
           <p>🚨 It's broken</p>
         </li>
 
+          <h2>SCSS</h2>
+        
+        <li style={docLinkStyle}>
+          <h3>@extend</h3>
+          <h4>Only extend within the file. I always get lost when it's more</h4>
+        </li>
+
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
