@@ -142,10 +142,10 @@ const IndexPage = () => {
         <li style={docLinkStyle}>
           <h3>Titles</h3>
           <code style={codeStyles}>/*------------------------------------*\<br />
-  #SECTION-TITLE<br />
-\*------------------------------------*/</code>
+            #SECTION-TITLE<br />
+            \*------------------------------------*/</code>
         </li>
-        
+
         <li style={docLinkStyle}>
           <h3>CSS Variables</h3>
           <code style={codeStyles}>
@@ -155,14 +155,21 @@ const IndexPage = () => {
         </li>
 
         <li style={docLinkStyle}>
+          <h3>Better Comments</h3>
+          <a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments" style={linkStyle}>
+            VS Code Extension
+          </a>
+        </li>
+
+        <li style={docLinkStyle}>
           <h3>Emoji 🦄</h3>
-          <h4>I use emoji all over my code the color means I dinf them 100x quicker</h4>
+          <h4>I use emoji all over my code the color means I find them 100x quicker</h4>
           <p>📣 look back at this it's not breaking but I don't like it</p>
           <p>🚨 It's broken</p>
         </li>
 
-          <h2>SCSS</h2>
-        
+        <h2>SCSS</h2>
+
         <li style={docLinkStyle}>
           <h3>@extend</h3>
           <h4>Only extend within the file. I always get lost when it's more</h4>
