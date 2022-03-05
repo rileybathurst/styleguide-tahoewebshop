@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 // styles
 const pageStyles = {
@@ -136,6 +137,8 @@ const IndexPage = () => {
       <p style={paragraphStyles}>
         Building <code style={codeStyles}>code styles so I know how to do things</code>
       </p>
+
+      <Link to="type">Type</Link>
 
       <h2>CSS</h2>
       <ul style={listStyles}>
