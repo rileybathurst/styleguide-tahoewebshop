@@ -178,6 +178,14 @@ const IndexPage = () => {
           <h4>Only extend within the file. I always get lost when it's more</h4>
         </li>
 
+        <li style={docLinkStyle}>
+          <h3>Icons</h3>
+          <h4>Default to Google Icons</h4>
+          <a href="https://fonts.google.com/icons" target="_blank" rel="norefferer noopener">Google Icons</a>
+        </li>
+
+
+
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
