@@ -184,6 +184,12 @@ const IndexPage = () => {
           <a href="https://fonts.google.com/icons" target="_blank" rel="norefferer noopener">Google Icons</a>
         </li>
 
+        <li style={docLinkStyle}>
+          <h3>Color</h3>
+          <h4><a href="https://twitter.com/Mantia/status/570687359328645120?s=20&t=SDi-mrZULTZkWiXZELXXsA">"This isn't a Louie Mantia color."
+            (That means it isn't 5° increment for Hue or ⅛ of 100% increment for Saturation and Brightness.)</a></h4>
+        </li>
+
 
 
         {links.map(link => (
