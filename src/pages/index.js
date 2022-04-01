@@ -190,6 +190,30 @@ const IndexPage = () => {
             (That means it isn't 5° increment for Hue or ⅛ of 100% increment for Saturation and Brightness.)</a></h4>
         </li>
 
+        <li style={docLinkStyle}>
+          <h3>Shadows</h3>
+          <h4><a href="https://en.wikipedia.org/wiki/Umbra,_penumbra_and_antumbra">Umbra, penumbra and antumbra wiki
+            Distinct parts of a shadow, this style sheet is basic, light mode</a></h4>
+          <ul>
+            <li>Umbra is direct light - dark - for active down clicks</li>
+            <li>Antumbra is eclipsed - medium - for hover</li>
+            <li>Penumbra is obscured - light - for layering but waiting</li>
+          </ul>
+          <code>
+            0 3px 6px hsla(0, 0%, 0%, 0.12),
+            0 2px 4px hsla(0, 0%, 0%, 0.10);
+          </code>
+          <code>
+            0 14px 24px hsla(0, 0%, 0%, 0.16),
+            0 4px 12px hsla(0, 0%, 0%, 0.12);
+          </code>
+          <code>
+            box-shadow:
+            0 5px 12px hsla(0, 0%, 0%, 0.4) /* Ambient light shadow */,
+            0 18px 32px hsla(0, 0%, 0%, 0.16) /* Direct light shadow */;
+          </code>
+        </li>
+
 
 
         {links.map(link => (
