@@ -192,6 +192,12 @@ const IndexPage = () => {
         </li>
 
         <li style={docLinkStyle}>
+          <h3>Apostrophe</h3>
+          <h4>&#39;</h4>
+          <p>When writing an apostrophe in text to make it not get confused write it as ampersand hashtag thirty-nine semicolon</p>
+        </li>
+
+        <li style={docLinkStyle}>
           <h3>Shadows</h3>
           <h4><a href="https://en.wikipedia.org/wiki/Umbra,_penumbra_and_antumbra">Umbra, penumbra and antumbra wiki
             Distinct parts of a shadow, this style sheet is basic, light mode</a></h4>
