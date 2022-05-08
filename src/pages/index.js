@@ -152,7 +152,7 @@ const IndexPage = () => {
         <li style={docLinkStyle}>
           <h3>CSS Variables</h3>
           <code style={codeStyles}>
-            Use variable instead of SASS if possible,<br />
+            Use variable instead of <Link to="/sass">SASS</Link> if possible,<br />
             Media Queries have to be sass
           </code>
         </li>
@@ -188,6 +188,7 @@ const IndexPage = () => {
           <h3>Color</h3>
           <h4><a href="https://twitter.com/Mantia/status/570687359328645120?s=20&t=SDi-mrZULTZkWiXZELXXsA">"This isn't a Louie Mantia color."
             (That means it isn't 5° increment for Hue or ⅛ of 100% increment for Saturation and Brightness.)</a></h4>
+          <br /> this is just a base I find it needs tweaks for things such as contrasts and very light and dark mark this with // custom on better comments
         </li>
 
         <li style={docLinkStyle}>
