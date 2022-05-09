@@ -198,6 +198,12 @@ const IndexPage = () => {
         </li>
 
         <li style={docLinkStyle}>
+          <h3>Quotes</h3>
+          <h4>&#39;</h4>
+          <p>When writing in javascript or typescript use single quotes</p>
+        </li>
+
+        <li style={docLinkStyle}>
           <h3>Z Index</h3>
           <p>// forest layers for z-index
             // https://en.wikipedia.org/wiki/Forest
