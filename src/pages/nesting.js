@@ -25,20 +25,23 @@ const codeStyles = {
 }
 
 // markup
-const SassPage = () => {
+const NestingPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Sass</title>
-      <h1 style={headingStyles}>Sass</h1>
+      <title>Nesting</title>
+      <h1 style={headingStyles}>Nesting</h1>
       <p style={paragraphStyles}>
-        I'm trying to get away from Sass and think that will eventually happen.
-        As for now there are a few places I need to use it.
+        Maybe this is ordering I'm just trying to figure it out.<br />
 
-        <ul>
-          <li key='nesting'>Nesting is close and that will happen first but not yet at May 2022</li>
-          <li key='media-queries'>Media query variables</li>
-          <li key='extend'>@extend this has a smaller issue that using @extend for a :hoevr so build the first style as a BEM--hover and @extend that</li>
-        </ul>
+        Never go more than 3 deep aka the inception rule.<br />
+
+        <ol>
+          <li key='max'>max width sizes</li>
+          <li key='styles'>styles</li>
+          <li key='dark'>dark</li>
+          <li key='sizes'>min width sizes</li>
+          <li key='nested'>nested</li>
+        </ol>
 
         <Link to="/">Go home</Link>.
       </p>
@@ -46,4 +49,4 @@ const SassPage = () => {
   )
 }
 
-export default SassPage
+export default NestingPage
