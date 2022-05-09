@@ -198,6 +198,15 @@ const IndexPage = () => {
         </li>
 
         <li style={docLinkStyle}>
+          <h3>Z Index</h3>
+          <p>// forest layers for z-index
+            // https://en.wikipedia.org/wiki/Forest
+            --floor: 1;
+            --understory: 2;
+            --canopy: 3;
+            --emergent: 4;</p></li>
+
+        <li style={docLinkStyle}>
           <h3>Shadows</h3>
           <h4><a href="https://en.wikipedia.org/wiki/Umbra,_penumbra_and_antumbra">Umbra, penumbra and antumbra wiki
             Distinct parts of a shadow, this style sheet is basic, light mode</a></h4>
