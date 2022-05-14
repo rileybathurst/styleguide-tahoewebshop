@@ -174,6 +174,16 @@ const IndexPage = () => {
         <h2>SCSS</h2>
 
         <li style={docLinkStyle}>
+          <h3>Multi-line padding</h3>
+          <p>When text needs a backgroundColor but spans multiple lines</p>
+          <p>This is on css-tricks in a few ways the one I am working on currently doesnt work in firefox
+            but does in safari and chrome</p>
+          <code>
+            working on this in JSWC but having issues update this note later
+          </code>
+        </li>
+
+        <li style={docLinkStyle}>
           <h3>@extend</h3>
           <h4>Only extend within the file. I always get lost when it's more</h4>
         </li>

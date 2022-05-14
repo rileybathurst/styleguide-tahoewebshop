@@ -38,6 +38,13 @@ const SassPage = () => {
           <li key='nesting'>Nesting is close and that will happen first but not yet at May 2022</li>
           <li key='media-queries'>Media query variables</li>
           <li key='extend'>@extend this has a smaller issue that using @extend for a :hoevr so build the first style as a BEM--hover and @extend that</li>
+          <li key='ampersands'>
+            <a href="https://css-tricks.com/the-sass-ampersand/"
+              target="_blank"
+              rel="noopener noreferrer">
+              Ampersands
+            </a>
+          </li>
         </ul>
 
         <Link to="/">Go home</Link>.
