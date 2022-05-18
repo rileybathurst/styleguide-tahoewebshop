@@ -102,6 +102,10 @@ const TypePage = () => {
       .multiple-small-lines
       @extend small;
 
+
+      load Gatsby fonts the "right" way
+      https://www.gatsbyjs.com/docs/how-to/styling/using-web-fonts/
+
       <Link to="/"><h3>Home</h3></Link>
 
     </main>
