@@ -3,14 +3,13 @@ import { Link } from "gatsby"
 
 const PackagePage = () => {
   return (
-    <main>
+    <main className="page">
       <title>Package.json</title>
       <h1>Package.json</h1>
       <p>
         Make sure these have enough info to be useful:
 
         https://nodejs.dev/learn/the-package-json-guide
-        https://docs.npmjs.com/cli/v7/configuring-npm/package-json
 
       </p>
       <h2>Properties we should always have</h2>
