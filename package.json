@@ -2,11 +2,17 @@
   "name": "styleguide-tahoewebshop",
   "version": "1.0.0",
   "private": true,
-  "description": "styleguide-tahoewebshop",
-  "author": "Riley Bathurst",
+  "description": "styleguide for tahoewebshop",
+  "author": {
+    "name": "Riley Bathurst",
+    "email": "riley@rileybathurst.com",
+    "url": "https://rileybathurst.com"
+  },
   "keywords": [
     "gatsby"
   ],
+  "repository": "github:rileybathurst/styleguide-tahoewebshop",
+  "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",

@@ -38,6 +38,8 @@ const LinksPage = () => {
         footer and header I dont think need to be visibly links so maybe we go the
 
       </p>
+
+      <p>a href links should also have</p>
     </main>
   )
 }
