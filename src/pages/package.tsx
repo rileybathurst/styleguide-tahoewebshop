@@ -16,10 +16,10 @@ const PackagePage = () => {
       // TODO this should have an order
       <ul>
         <li key='name'>"name": "test-project"</li>
-        <li key='author'>"author"&#58; &#x7b;
-          "name" &#x7b; "Joe",
-          "email" &#x7b; "joe@whatever.com",
-          "url" &#x7b; "https://whatever.com"
+        <li key='author'>"author"&#58; &#x7b;<br />
+          &nbsp;&nbsp;"name"&#58; "Joe",<br />
+          &nbsp;&nbsp;"email"&#58; "joe@whatever.com",<br />
+          &nbsp;&nbsp;"url"&#58; "https://whatever.com"<br />
           &#x7d;</li>
         <li key='homepage'>"homepage": "https://whatever.com/package"</li>
         <li key='license'>"license": "MIT"<br />

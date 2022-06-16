@@ -136,6 +136,7 @@ const IndexPage = () => {
             <h4>I use emoji all over my code the color means I find them 100x quicker</h4>
             <p>📣 look back at this it's not breaking but I don't like it</p>
             <p>🚨 It's broken</p>
+            <p>span role="img" aria-label="Party popper emojis" 🎉🎉🎉 /span</p>
           </li>
 
           <h2>SCSS</h2>
