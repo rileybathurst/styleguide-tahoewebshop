@@ -93,6 +93,7 @@ const IndexPage = () => {
           <li key="strapi"><Link to="/strapi">Strapi</Link></li>
           <li key="symbols"><Link to="/symbols">Symbols</Link></li>
           <li key="type"><Link to="/type">Type</Link></li>
+          <li key="naming"><Link to="/naming">Naming</Link></li>
         </ul>
       </nav>
       <main>
