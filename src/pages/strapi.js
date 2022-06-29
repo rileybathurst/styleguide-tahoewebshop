@@ -34,7 +34,8 @@ const StrapiPage = () => {
         Slug
         Capitalize breakdown to -capitalize
         This regex means you can only have lowercase and numbers
-        ^[a-z0-9]*$
+        ^[a-z0-9]*$<br />
+        if needed \-<br />
 
         <Link to="/">Go home</Link>.
       </p>
