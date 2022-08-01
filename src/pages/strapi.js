@@ -33,9 +33,15 @@ const StrapiPage = () => {
       <p style={paragraphStyles}>
         Slug
         Capitalize breakdown to -capitalize
-        This regex means you can only have lowercase and numbers
-        ^[a-z0-9]*$<br />
+        This regex means you can only have lowercase and numbers with spaces
+        ^[a-z0-9\-]*$<br />
         if needed \-<br />
+
+        dont allow double spaces. or a space to start or finish the string
+        ^\S((?!.*  ).*\S)?$<br />
+
+        <br />
+        there might be a way to combine these two regexes
 
         <Link to="/">Go home</Link>.
       </p>
