@@ -40,6 +40,25 @@ const NamingPage = () => {
       <p>Default script <code>app.js</code> or <code>app.tsx</code></p>
       <p>Default css or scss <code>styles.css</code></p>
 
+      <h2>Variable Naming Conventions</h2>
+      <p>Try to use wikipedia when possible</p>
+      <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists" target='_blank' rel="nofollow">
+        List of Lists of Lists
+      </a>
+      <h3>Widths of page</h3>
+      <p><a href="https://en.wikipedia.org/wiki/Largest_living_flying_birds_by_wingspan">Largest living flying birds by wingspan</a>
+        This has a bunch of duplications so the list follows
+
+        <li>
+          <li>albatross</li>
+          <li>pelican</li>
+          <li>condor</li>
+          <li>stork</li>
+          <li>vulture</li>
+          <li>swan</li>
+        </li>
+      </p>
+
     </main>
   )
 }
