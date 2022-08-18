@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import "../styles/styles.scss"
 
+import Header from "../components/header"
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -83,19 +85,7 @@ const badgeStyle = {
 const IndexPage = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li key="sass"><Link to="/styling/sass">Styling</Link></li>
-          <li key="links"><Link to="/links">Links</Link></li>
-          <li key="nesting"><Link to="/nesting">Nesting</Link></li>
-          <li key="package"><Link to="/package">Package</Link></li>
-          <li key="sizes"><Link to="/sizes">Sizes</Link></li>
-          <li key="strapi"><Link to="/strapi">Strapi</Link></li>
-          <li key="symbols"><Link to="/symbols">Symbols</Link></li>
-          <li key="type"><Link to="/type">Type</Link></li>
-          <li key="naming"><Link to="/naming">Naming</Link></li>
-        </ul>
-      </nav>
+      <Header />
       <main>
         <title>Home Page</title>
         <h1>Style Guide</h1>
