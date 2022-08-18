@@ -103,6 +103,19 @@ const IndexPage = () => {
           <code>code styles so I know how to do things</code>
         </p>
 
+        <p>Work from best practices, including these references in order, document them.</p>
+        <ol>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide">MDN Styleguide</a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style">The Elements of Typographic Style</a>
+          </li>
+          <li>https://cssguidelin.es/</li>
+          <li>https://styleguide.github.com/ Primer</li>
+        </ol>
+        <p>If needed go to a stackoverflow but try take it back to the source.</p>
+
         <Link to="/type">Type</Link>
 
         <h2>CSS</h2>
