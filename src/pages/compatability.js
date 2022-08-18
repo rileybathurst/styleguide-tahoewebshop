@@ -35,7 +35,7 @@ const DeprecationsPage = () => {
         <title>{title}</title>
         <h1 style={headingStyles}>{title}</h1>
         <p style={paragraphStyles}>
-          Focus on useage. Then on supported versions.
+          Focus on useage to create the best site for the largest number of people without waisting time on deprecated systems.
 
           <a href="https://gs.statcounter.com/">Stat Counter</a>
           but more specifically, <a href="https://gs.statcounter.com/browser-version-market-share/all/north-america">browser versions in North America</a>
@@ -51,12 +51,11 @@ const DeprecationsPage = () => {
 
             <a href="https://support.google.com/chrome/a/answer/7100626?hl=en">Chrome Minimum Requirments</a>
             <p>I dont know if the minimum listed here gets the newest chrome</p>
-
           </section>
 
           <section>
             <h2>Safari / Apple</h2>
-            <p>Support the current and one previous major release.</p>
+            <p>Support the current and the latest minor version of the previous major release.</p>
             <h3>Desktop</h3>
             <a href="https://endoflife.date/macos" target="_blank">endoflife.date</a>
             <p>Support the releases as long as Apple, MacOS number corresponds to the safari number.</p>
@@ -72,9 +71,6 @@ const DeprecationsPage = () => {
             <h3>Mobile</h3>
             <a href="https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/ios">Apple Supported models to the current iOS</a>
             <p>Support only the most recent version of iOS as thats what Apple do, a very small number are on the back version and decide if something needs to be supported</p>
-
-
-
           </section>
 
           <section>
@@ -84,12 +80,10 @@ const DeprecationsPage = () => {
 
           Supported version
 
-
           <section>
             <h2>Samsung Internet</h2>
             <p>I need a device for testing this.</p>
           </section>
-
 
           <a href="https://www.samsung.com/au/support/mobile-devices/update-android-os-version/">Samsung makes the most phones what version of android do they get</a>
         </p>
