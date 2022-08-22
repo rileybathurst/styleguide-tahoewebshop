@@ -27,6 +27,8 @@ const codeStyles = {
 // markup
 const LinksPage = () => {
   return (
+    <>
+    <Header />
     <main style={pageStyles}>
       <title>Links</title>
       <h1 style={headingStyles}>Links</h1>
@@ -39,8 +41,12 @@ const LinksPage = () => {
 
       </p>
 
-      <p>a href links should also have</p>
+      <p><a href="https://web.dev/external-anchors-use-rel-noopener/">a href links should also have rel="noopener noreferrer"<a><br />
+        This is a hard one to get a vs code snippet to remember and not hit something else so I'm using <code>nolink</code>
+      </p>
+
     </main>
+    <>
   )
 }
 
