@@ -28,25 +28,26 @@ const codeStyles = {
 const LinksPage = () => {
   return (
     <>
-    <Header />
-    <main style={pageStyles}>
-      <title>Links</title>
-      <h1 style={headingStyles}>Links</h1>
-      <p style={paragraphStyles}>
-        This is a starting point for how I am dealing with links, colors, underlines, buttons, hover, focus etc etc etc
-        <br />
-        Default a tag. I think should be outside of the paragraph color but not the site color but I also like the default underline to hover remove the underline
-        <br />
-        footer and header I dont think need to be visibly links so maybe we go the
+      <Header />
+      <main style={pageStyles}>
+        <title>Links</title>
+        <h1 style={headingStyles}>Links</h1>
+        <p style={paragraphStyles}>
+          This is a starting point for how I am dealing with links, colors, underlines, buttons, hover, focus etc etc etc
+          <br />
+          Default a tag. I think should be outside of the paragraph color but not the site color but I also like the default underline to hover remove the underline
+          <br />
+          footer and header I dont think need to be visibly links so maybe we go the
 
-      </p>
+        </p>
 
-      <p><a href="https://web.dev/external-anchors-use-rel-noopener/">a href links should also have rel="noopener noreferrer"<a><br />
-        This is a hard one to get a vs code snippet to remember and not hit something else so I'm using <code>nolink</code>
-      </p>
+        <p>
+          <a href="https://web.dev/external-anchors-use-rel-noopener/">a href links should also have rel="noopener noreferrer"</a><br />
+          This is a hard one to get a vs code snippet to remember and not hit something else so I'm using <code>nolink</code>
+        </p>
 
-    </main>
-    <>
+      </main>
+    </>
   )
 }
 
