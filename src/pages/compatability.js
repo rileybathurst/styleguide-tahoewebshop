@@ -90,6 +90,7 @@ const DeprecationsPage = () => {
 
         <h3>WebP</h3>
         <p>Currently needs support even tho its kinda back as the MacOS it needs is still supported</p>
+        <p>Safari 14 shipped with this support on iOS &amp; iPadOS 14 and macOS Big Sur 11. Catalina was previous and is almost certainly end of life in October</p>
         <p>
           <Link to="/">Go home</Link>.
         </p>

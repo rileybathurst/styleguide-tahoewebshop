@@ -45,6 +45,9 @@ const NamingPage = () => {
       <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists" target='_blank' rel="nofollow">
         List of Lists of Lists
       </a>
+
+      <p>I need to think about how often I use variables, as sometimes a louie color is only used a couple of times and then naming gets more complex for hue and saturation to have all of them and not be seeable</p>
+
       <h3>Widths of page</h3>
       <p><a href="https://en.wikipedia.org/wiki/Largest_living_flying_birds_by_wingspan">Largest living flying birds by wingspan</a>
         This has a bunch of duplications so the list follows

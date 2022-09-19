@@ -119,6 +119,8 @@ const TypePage = () => {
         <h3>supra</h3>
         <p>used in academic or legal texts to refer to someone or something mentioned above or earlier, this refers to having the brow above it.</p>
 
+        <p>wrap brows and crest in an hgroup with a ridge class</p>
+
         <Link to="/"><h3>Home</h3></Link>
 
       </main >
