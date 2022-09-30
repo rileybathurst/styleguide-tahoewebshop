@@ -46,7 +46,19 @@ const NamingPage = () => {
         List of Lists of Lists
       </a>
 
-      <p>I need to think about how often I use variables, as sometimes a louie color is only used a couple of times and then naming gets more complex for hue and saturation to have all of them and not be seeable</p>
+      <h3>Colors</h3>
+      <p>Start with a base color, if its not already named a good place to start is
+        <a href="https://api.color.pizza/v1/4bb6fd" target='_blank' rel='noreferrer'>
+          api.color.pizza/v1/4bb6fd
+        </a>
+        It should be a louie color
+        <a href="https://gist.github.com/rileybathurst/9ea95dce1a82060cb5ca2b959146a093" target='_blank' rel='noreferrer'>
+          Louie Colors Gist
+        </a>
+
+        Then take the hue and saturation and make that __base.
+        Many of the variables are lightness, so just edit the __base and neutral
+      </p>
 
       <h3>Widths of page</h3>
       <p><a href="https://en.wikipedia.org/wiki/Largest_living_flying_birds_by_wingspan">Largest living flying birds by wingspan</a>
