@@ -96,13 +96,14 @@ const IndexPage = () => {
         <p>Work from best practices, including these references in order, document them.</p>
         <ol>
           <li>
-            <a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide">MDN Styleguide</a>
+            <a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide" target='_blank' rel='noreferrer'>MDN Styleguide</a>
           </li>
           <li>
-            <a href="https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style">The Elements of Typographic Style</a>
+            <a href="https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style" target='_blank' rel='noreferrer'>The Elements of Typographic Style</a>
           </li>
-          <li>https://cssguidelin.es/</li>
-          <li>https://styleguide.github.com/ Primer</li>
+          <li><a href="https://cssguidelin.es/" target='_blank' rel='noreferrer'>https://cssguidelin.es/</a></li>
+          <li><a href="https://styleguide.github.com/primer" target='_blank' rel='noreferrer'>https://styleguide.github.com/ Primer</a></li>
+          <li><a href="https://google.github.io/styleguide/jsguide.html" target='_blank' rel='noreferrer'>https://google.github.io/styleguide/jsguide.html</a></li>
         </ol>
         <p>If needed go to a stackoverflow but try take it back to the source.</p>
 

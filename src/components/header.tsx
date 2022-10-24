@@ -19,6 +19,7 @@ const Header = () => {
           <li key="type"><Link to="/type">Type</Link></li>
           <li key="naming"><Link to="/naming">Naming</Link></li>
           <li key="compatability"><Link to="/compatability">Compatability</Link></li>
+          <li key="components"><Link to="/components">Components</Link></li>
           <li key="comments"><Link to="/comments">Comments</Link></li>
         </ul>
       </nav>

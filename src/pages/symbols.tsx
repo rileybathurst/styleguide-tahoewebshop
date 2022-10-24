@@ -15,6 +15,7 @@ const SymbolsPage = () => {
         </a>
         <ul>
           <li><code>&thinsp; & thinsp; - thin space</code></li>
+          <li><code>&apos; & apos; - apostrophe</code></li>
         </ul>
         backup <br />
         https://www.toptal.com/designers/htmlarrows/

@@ -39,6 +39,7 @@ const NamingPage = () => {
       <p>Default file index.html or index.js / index.tsx</p>
       <p>Default script <code>app.js</code> or <code>app.tsx</code></p>
       <p>Default css or scss <code>styles.css</code></p>
+      <p><a href="https://google.github.io/styleguide/jsguide.html#file-name" target='_blank' rel='noreferrer'>File names must be all lowercase and may include underscores (_) or dashes (-), but no additional punctuation.</a>
 
       <h2>Variable Naming Conventions</h2>
       <p>Try to use wikipedia when possible</p>
