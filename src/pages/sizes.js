@@ -16,15 +16,7 @@ const headingStyles = {
 const paragraphStyles = {
   marginBottom: 48,
 }
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
 
-// markup
 const SizesPage = () => {
   return (
     <main style={pageStyles}>
@@ -43,9 +35,9 @@ const SizesPage = () => {
           </ul>
         </li>
         <li key='shaodws'>
-        // shadows
-        // based on the layers of the atomposhere
-        // https://en.wikipedia.org/wiki/Atmosphere_of_Earth
+          shadows
+          based on the layers of the atomposhere
+          https://en.wikipedia.org/wiki/Atmosphere_of_Earth
         </li>
 
       </ul>

@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 // styles
 const pageStyles = {
@@ -16,15 +15,7 @@ const headingStyles = {
 const paragraphStyles = {
   marginBottom: 48,
 }
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
 
-// markup
 const NamingPage = () => {
   return (
     <main style={pageStyles}>
@@ -39,21 +30,22 @@ const NamingPage = () => {
       <p>Default file index.html or index.js / index.tsx</p>
       <p>Default script <code>app.js</code> or <code>app.tsx</code></p>
       <p>Default css or scss <code>styles.css</code></p>
-      <p><a href="https://google.github.io/styleguide/jsguide.html#file-name" target='_blank' rel='noreferrer'>File names must be all lowercase and may include underscores (_) or dashes (-), but no additional punctuation.</a>
+      <p><a href="https://google.github.io/styleguide/jsguide.html#file-name" target='_blank' rel='noreferrer nofollow'>File names must be all lowercase and may include underscores (_) or dashes (-), but no additional punctuation.</a></p>
+      <p>This includes repository names etc</p>
 
       <h2>Variable Naming Conventions</h2>
       <p>Try to use wikipedia when possible</p>
-      <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists" target='_blank' rel="nofollow">
+      <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists" target='_blank' rel="noreferrer nofollow">
         List of Lists of Lists
       </a>
 
       <h3>Colors</h3>
       <p>Start with a base color, if its not already named a good place to start is
-        <a href="https://api.color.pizza/v1/4bb6fd" target='_blank' rel='noreferrer'>
+        <a href="https://api.color.pizza/v1/4bb6fd" target='_blank' rel='noreferrer nofollow'>
           api.color.pizza/v1/4bb6fd
         </a>
         It should be a louie color
-        <a href="https://gist.github.com/rileybathurst/9ea95dce1a82060cb5ca2b959146a093" target='_blank' rel='noreferrer'>
+        <a href="https://gist.github.com/rileybathurst/9ea95dce1a82060cb5ca2b959146a093" target='_blank' rel='noreferrer nofollow'>
           Louie Colors Gist
         </a>
 
@@ -62,7 +54,7 @@ const NamingPage = () => {
       </p>
 
       <h3>Widths of page</h3>
-      <p><a href="https://en.wikipedia.org/wiki/Largest_living_flying_birds_by_wingspan">Largest living flying birds by wingspan</a>
+      <p><a href="https://en.wikipedia.org/wiki/Largest_living_flying_birds_by_wingspan" rel="noreferrer nofollow">Largest living flying birds by wingspan</a>
         This has a bunch of duplications so the list follows
 
         <li>

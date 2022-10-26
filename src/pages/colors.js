@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 // styles
 const pageStyles = {
@@ -16,13 +15,6 @@ const headingStyles = {
 const paragraphStyles = {
   marginBottom: 48,
 }
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
 
 const ColorsPage = () => {
   return (
@@ -30,12 +22,12 @@ const ColorsPage = () => {
       <title>Color</title>
       <h1 style={headingStyles}>Color</h1>
       <p style={paragraphStyles}>
-        <h4><a href="https://twitter.com/Mantia/status/570687359328645120?s=20&t=SDi-mrZULTZkWiXZELXXsA">"This isn't a Louie Mantia color."
+        <h4><a href="https://twitter.com/Mantia/status/570687359328645120?s=20&t=SDi-mrZULTZkWiXZELXXsA" rel="nofollow norefferer">"This isn't a Louie Mantia color."
           (That means it isn't 5° increment for Hue or ⅛ of 100% increment for Saturation and Brightness.)</a></h4>
         <br /> this is just a base I find it needs tweaks for things such as contrasts and very light and dark mark this with // custom on better comments
       </p>
 
-      // louie neutrals
+      louie neutrals
       --black-metal: hsl(0, 0%, 2.5%);
       --black-out: hsl(0, 0%, 12.5%);
       --raven-black: hsl(0, 0%, 25%);

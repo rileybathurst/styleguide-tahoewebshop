@@ -1,10 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
-const LinksPage = () => {
+const HTMLPage = () => {
   return (
     <main>
-      <title>HTML</title>
+      <title>SEO</title>
       <h1>HTML</h1>
       <p>
         Layout a file in these orders
@@ -21,4 +20,4 @@ const LinksPage = () => {
   )
 }
 
-export default LinksPage
+export default HTMLPage

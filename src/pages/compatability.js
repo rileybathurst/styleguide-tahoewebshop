@@ -16,15 +16,7 @@ const headingStyles = {
 const paragraphStyles = {
   marginBottom: 48,
 }
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
 
-// markup
 const DeprecationsPage = () => {
   const title = 'Compatability';
 
@@ -57,7 +49,7 @@ const DeprecationsPage = () => {
             <h2>Safari / Apple</h2>
             <p>Support the current and the latest minor version of the previous major release.</p>
             <h3>Desktop</h3>
-            <a href="https://endoflife.date/macos" target="_blank">endoflife.date</a>
+            <a href="https://endoflife.date/macos" target="_blank" rel="noreferrer">endoflife.date</a>
             <p>Support the releases as long as Apple, MacOS number corresponds to the safari number.</p>
 
             <blockquote>
