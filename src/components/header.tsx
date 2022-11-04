@@ -1,5 +1,5 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
 const Header = () => {
   return (
@@ -22,6 +22,7 @@ const Header = () => {
           <li key="components"><Link to="/components">Components</Link></li>
           <li key="comments"><Link to="/comments">Comments</Link></li>
           <li key="seo"><Link to="/seo">SEO</Link></li>
+          <li key="seo"><Link to="/colors">Colors</Link></li>
         </ul>
       </nav>
     </header>

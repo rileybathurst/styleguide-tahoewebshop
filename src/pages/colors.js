@@ -1,4 +1,5 @@
-import * as React from "react"
+import * as React from "react";
+// import { Script } from "gatsby";
 
 // styles
 const pageStyles = {
@@ -37,6 +38,9 @@ const ColorsPage = () => {
       --tin-soldier: hsl(0, 0%, 75%);
       --kingly-cloud: hsl(0, 0%, 87.5%);
       --brilliance: hsl(0, 0%, 97.5%);
+
+      {/* // todo see if I can make this work */}
+      {/* <Script src="https://gist.github.com/rileybathurst/6d5959342de83f94d651168636f4ccb9.js"></Script> */}
 
     </main>
   )
