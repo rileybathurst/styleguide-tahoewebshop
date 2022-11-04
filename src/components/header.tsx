@@ -9,6 +9,22 @@ const Header = () => {
         <ul>
           {/* // TODO: these could have variables instead of writing things 3 times in a row 
           // if it gets really fancy its in an array with a loop but then nesting gets problematic */}
+          {/* // thats called a loop with an array 
+          
+          query MyQuery {
+  allSitePage {
+    edges {
+      node {
+        path
+      }
+    }
+  }
+}
+
+          
+          
+          */}
+
           <li key="sass"><Link to="/styling/sass">Styling</Link></li>
           <li key="links"><Link to="/links">Links</Link></li>
           <li key="nesting"><Link to="/nesting">Nesting</Link></li>
@@ -22,6 +38,7 @@ const Header = () => {
           <li key="components"><Link to="/components">Components</Link></li>
           <li key="comments"><Link to="/comments">Comments</Link></li>
           <li key="seo"><Link to="/seo">SEO</Link></li>
+          <li key="titles"><Link to="/titles">Titles</Link></li>
           <li key="seo"><Link to="/colors">Colors</Link></li>
         </ul>
       </nav>
