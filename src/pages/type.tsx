@@ -110,6 +110,9 @@ const TypePage = () => {
         load Gatsby fonts the "right" way
         https://www.gatsbyjs.com/docs/how-to/styling/using-web-fonts/
 
+        <h2>Class name elements</h2>
+        <p>Feel free to make an h1 class .h2 but an h1 does not also need to be h1</p>
+
         <h2>Headers, subheaders and eyebrows</h2>
         <p>Google product pages do a good job of eyebrow headers, containing a very short and sweet keyword, this article talks about it, I prefer the the short name of brow,<br />
           <a href="https://uxmovement.com/content/increasing-headline-clicks-with-eyebrow-text/" target='_blank' rel='noopener noreferrer'>https://uxmovement.com/content/increasing-headline-clicks-with-eyebrow-text/</a>

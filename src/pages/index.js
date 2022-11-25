@@ -25,7 +25,7 @@ const IndexPage = () => {
 
         <p>Work from best practices, including these references in order, document them.</p>
         <ol>
-          <li>
+          <li key="//TODO: make some keys">
             <a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide" target='_blank' rel='noreferrer'>MDN Styleguide</a>
           </li>
           <li>
@@ -34,6 +34,7 @@ const IndexPage = () => {
           <li><a href="https://cssguidelin.es/" target='_blank' rel='noreferrer'>https://cssguidelin.es/</a></li>
           <li><a href="https://styleguide.github.com/primer" target='_blank' rel='noreferrer '>https://styleguide.github.com/ Primer</a></li>
           <li><a href="https://google.github.io/styleguide/jsguide.html" target='_blank' rel='noreferrer'>https://google.github.io/styleguide/jsguide.html</a></li>
+          <li><a href="https://reactjs.org" target='_blank' rel='noreferrer'>https://reactjs.org</a></li>
         </ol>
         <p>If needed go to a stackoverflow but try take it back to the source.</p>
 

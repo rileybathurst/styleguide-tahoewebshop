@@ -25,7 +25,8 @@ const Header = () => {
           
           */}
 
-          <li key="sass"><Link to="/styling/sass">Styling</Link></li>
+          <li key="checklist"><Link to="/checklist">Checklist</Link></li>
+          <li key="styling"><Link to="/styling">Styling</Link></li>
           <li key="links"><Link to="/links">Links</Link></li>
           <li key="nesting"><Link to="/nesting">Nesting</Link></li>
           <li key="package"><Link to="/package">Package</Link></li>

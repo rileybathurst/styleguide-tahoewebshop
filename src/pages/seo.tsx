@@ -53,7 +53,8 @@ const SeoPage = () => {
         <li>Video</li>
       </ul>
 
-
+      <h2>Robots.txt</h2>
+      <p>Even in the case of an allow all upload a robots.txt file</p>
     </main >
   )
 }
