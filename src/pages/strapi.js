@@ -35,6 +35,9 @@ const StrapiPage = () => {
         <br />
         there might be a way to combine these two regexes
 
+        <h2>URL</h2>
+        <p>Strapi defaults to http://localhost:1337/admin always change this so it doesnt get lost with more sites running the background</p>
+
         <Link to="/">Go home</Link>.
       </p>
     </main>

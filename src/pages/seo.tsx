@@ -55,6 +55,9 @@ const SeoPage = () => {
 
       <h2>Robots.txt</h2>
       <p>Even in the case of an allow all upload a robots.txt file</p>
+
+      <h2>Person</h2>
+      <p>In many cases adding additional schema documentation is good. If you add a person at the lowest level it break they must be a sub category of a localbusiness etc</p>
     </main >
   )
 }
