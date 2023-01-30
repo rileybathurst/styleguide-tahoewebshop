@@ -38,6 +38,9 @@ const StrapiPage = () => {
         <h2>URL</h2>
         <p>Strapi defaults to http://localhost:1337/admin always change this so it doesnt get lost with more sites running the background</p>
 
+        <h2>API Naming</h2>
+        <p>Use the github repo name as this is the easiest to reference</p>
+
         <Link to="/">Go home</Link>.
       </p>
     </main>
